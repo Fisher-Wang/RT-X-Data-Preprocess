@@ -1,0 +1,10 @@
+.vscode/
+rt_1_x_tf_trained_for_002272480_step/
+*.yaml
+*.ipynb
+
+# Media files
+*.gif
+*.png
+*.jpg
+*.jpeg
