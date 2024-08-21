@@ -1,0 +1,430 @@
+aloha_mobile:
+- cam_high
+- cam_left_wrist
+- cam_right_wrist
+- state
+asu_table_top_converted_externally_to_rlds:
+- image
+- state
+- state_vel
+austin_buds_dataset_converted_externally_to_rlds:
+- image
+- state
+- wrist_image
+austin_sailor_dataset_converted_externally_to_rlds:
+- image
+- state
+- state_ee
+- state_gripper
+- state_joint
+- wrist_image
+austin_sirius_dataset_converted_externally_to_rlds:
+- image
+- state
+- state_ee
+- state_gripper
+- state_joint
+- wrist_image
+bc_z:
+- episode_success
+- image
+- natural_language_embedding
+- natural_language_instruction
+- present/autonomous
+- present/axis_angle
+- present/intervention
+- present/sensed_close
+- present/xyz
+- sequence_length
+berkeley_autolab_ur5:
+- hand_image
+- image
+- image_with_depth
+- natural_language_embedding
+- natural_language_instruction
+- robot_state
+berkeley_cable_routing:
+- image
+- natural_language_embedding
+- natural_language_instruction
+- robot_state
+- top_image
+- wrist225_image
+- wrist45_image
+berkeley_fanuc_manipulation:
+- end_effector_state
+- image
+- state
+- wrist_image
+berkeley_gnm_cory_hall:
+- image
+- position
+- state
+- yaw
+berkeley_gnm_recon:
+- image
+- position
+- state
+- yaw
+berkeley_gnm_sac_son:
+- image
+- position
+- state
+- yaw
+berkeley_mvp_converted_externally_to_rlds:
+- gripper
+- hand_image
+- joint_pos
+- pose
+berkeley_rpt_converted_externally_to_rlds:
+- gripper
+- hand_image
+- joint_pos
+bridge:
+- image
+- natural_language_embedding
+- natural_language_instruction
+- state
+cmu_franka_exploration_dataset_converted_externally_to_rlds:
+- highres_image
+- image
+cmu_play_fusion:
+- image
+- state
+cmu_playing_with_food:
+- finger_vision_1
+- finger_vision_2
+- image
+- state
+cmu_stretch:
+- image
+- state
+columbia_cairlab_pusht_real:
+- image
+- natural_language_embedding
+- natural_language_instruction
+- robot_state
+- wrist_image
+conq_hose_manipulation:
+- frontleft_fisheye_image
+- frontright_fisheye_image
+- hand_color_image
+- state
+dlr_edan_shared_control_converted_externally_to_rlds:
+- image
+- state
+dlr_sara_grid_clamp_converted_externally_to_rlds:
+- image
+- state
+dlr_sara_pour_converted_externally_to_rlds:
+- image
+- state
+dobbe:
+- gripper
+- quat
+- rot
+- state
+- wrist_image
+- xyz
+droid:
+- cartesian_position
+- exterior_image_1_left
+- exterior_image_2_left
+- gripper_position
+- joint_position
+- wrist_image_left
+eth_agent_affordances:
+- image
+- input_point_cloud
+- state
+fmb:
+- color_id
+- eef_force
+- eef_pose
+- eef_torque
+- eef_vel
+- image_side_1
+- image_side_1_depth
+- image_side_2
+- image_side_2_depth
+- image_wrist_1
+- image_wrist_1_depth
+- image_wrist_2
+- image_wrist_2_depth
+- joint_pos
+- joint_vel
+- length
+- object_id
+- primitive
+- shape_id
+- size
+- state_gripper_pose
+fractal20220817_data:
+- base_pose_tool_reached
+- gripper_closed
+- gripper_closedness_commanded
+- height_to_bottom
+- image
+- natural_language_embedding
+- natural_language_instruction
+- orientation_box
+- orientation_start
+- robot_orientation_positions_box
+- rotation_delta_to_go
+- src_rotation
+- vector_to_go
+- workspace_bounds
+furniture_bench_dataset_converted_externally_to_rlds:
+- image
+- state
+- wrist_image
+iamlab_cmu_pickup_insert_converted_externally_to_rlds:
+- image
+- state
+- wrist_image
+imperialcollege_sawyer_wrist_cam:
+- image
+- state
+- wrist_image
+io_ai_tech:
+- depth
+- fisheye_camera_extrinsic
+- fisheye_camera_intrinsic
+- image
+- image_fisheye
+- image_left_side
+- image_right_side
+- left_camera_extrinsic
+- left_camera_intrinsic
+- main_camera_intrinsic
+- right_camera_extrinsic
+- right_camera_intrinsic
+- state
+jaco_play:
+- end_effector_cartesian_pos
+- end_effector_cartesian_velocity
+- image
+- image_wrist
+- joint_pos
+- natural_language_embedding
+- natural_language_instruction
+kaist_nonprehensile_converted_externally_to_rlds:
+- image
+- partial_pointcloud
+- state
+kuka:
+- clip_function_input/base_pose_tool_reached
+- clip_function_input/workspace_bounds
+- gripper_closed
+- height_to_bottom
+- image
+- natural_language_embedding
+- natural_language_instruction
+- task_id
+language_table:
+- effector_target_translation
+- effector_translation
+- instruction
+- rgb
+maniskill_dataset_converted_externally_to_rlds:
+- base_pose
+- depth
+- image
+- main_camera_cam2world_gl
+- main_camera_extrinsic_cv
+- main_camera_intrinsic_cv
+- state
+- target_object_or_part_final_pose
+- target_object_or_part_final_pose_valid
+- target_object_or_part_initial_pose
+- target_object_or_part_initial_pose_valid
+- tcp_pose
+- wrist_camera_cam2world_gl
+- wrist_camera_extrinsic_cv
+- wrist_camera_intrinsic_cv
+- wrist_depth
+- wrist_image
+mimic_play:
+- image
+- state
+- wrist_image
+nyu_door_opening_surprising_effectiveness:
+- image
+- natural_language_embedding
+- natural_language_instruction
+nyu_franka_play_dataset_converted_externally_to_rlds:
+- depth
+- depth_additional_view
+- image
+- image_additional_view
+- state
+nyu_rot_dataset_converted_externally_to_rlds:
+- image
+- state
+plex_robosuite:
+- image
+- state
+- wrist_image
+qut_dexterous_manpulation:
+- image
+- state
+- wrist_image
+robo_net:
+- image
+- image1
+- image2
+- state
+robo_set:
+- image_left
+- image_right
+- image_top
+- image_wrist
+- state
+- state_velocity
+robot_vqa:
+- images
+- raw_text_answer
+- raw_text_question
+roboturk:
+- front_rgb
+- natural_language_embedding
+- natural_language_instruction
+spoc:
+- an_object_is_in_hand
+- house_index
+- hypothetical_task_success
+- image
+- image_manipulation
+- last_action_is_random
+- last_action_str
+- last_action_success
+- last_agent_location
+- manip_object_bbox
+- minimum_l2_target_distance
+- minimum_visible_target_alignment
+- nav_object_bbox
+- relative_arm_location_metadata
+- room_current_seen
+- rooms_seen
+- visible_target_4m_count
+stanford_hydra_dataset_converted_externally_to_rlds:
+- image
+- state
+- wrist_image
+stanford_kuka_multimodal_dataset_converted_externally_to_rlds:
+- contact
+- depth_image
+- ee_forces_continuous
+- ee_orientation
+- ee_orientation_vel
+- ee_position
+- ee_vel
+- ee_yaw
+- ee_yaw_delta
+- image
+- joint_pos
+- joint_vel
+- optical_flow
+- state
+stanford_mask_vit_converted_externally_to_rlds:
+- end_effector_pose
+- finger_sensors
+- high_bound
+- image
+- low_bound
+- state
+stanford_robocook_converted_externally_to_rlds:
+- depth_1
+- depth_2
+- depth_3
+- depth_4
+- image_1
+- image_2
+- image_3
+- image_4
+- state
+taco_play:
+- depth_gripper
+- depth_static
+- natural_language_embedding
+- natural_language_instruction
+- rgb_gripper
+- rgb_static
+- robot_obs
+- structured_language_instruction
+tidybot:
+- image
+- object
+- receptacles
+tokyo_u_lsmo_converted_externally_to_rlds:
+- image
+- state
+toto:
+- image
+- natural_language_embedding
+- natural_language_instruction
+- state
+ucsd_kitchen_dataset_converted_externally_to_rlds:
+- image
+- state
+ucsd_pick_and_place_dataset_converted_externally_to_rlds:
+- image
+- state
+uiuc_d3field:
+- depth_1
+- depth_2
+- depth_3
+- depth_4
+- image_1
+- image_2
+- image_3
+- image_4
+- state
+usc_cloth_sim_converted_externally_to_rlds:
+- image
+utaustin_mutex:
+- image
+- state
+- wrist_image
+utokyo_pr2_opening_fridge_converted_externally_to_rlds:
+- image
+- state
+utokyo_pr2_tabletop_manipulation_converted_externally_to_rlds:
+- image
+- state
+utokyo_saytap_converted_externally_to_rlds:
+- desired_pattern
+- desired_vel
+- image
+- prev_act
+- proj_grav_vec
+- state
+- wrist_image
+utokyo_xarm_bimanual_converted_externally_to_rlds:
+- action_l
+- action_r
+- image
+- pose_l
+- pose_r
+utokyo_xarm_pick_and_place_converted_externally_to_rlds:
+- end_effector_pose
+- hand_image
+- image
+- image2
+- joint_state
+- joint_trajectory
+vima_converted_externally_to_rlds:
+- ee
+- frontal_image
+- frontal_segmentation
+- image
+- segmentation
+- segmentation_obj_info
+viola:
+- agentview_rgb
+- ee_states
+- eye_in_hand_rgb
+- gripper_states
+- joint_states
+- natural_language_embedding
+- natural_language_instruction
