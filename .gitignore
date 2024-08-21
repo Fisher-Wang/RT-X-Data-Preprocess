@@ -1,4 +1,5 @@
 .vscode/
+__pycache__/
 rt_1_x_tf_trained_for_002272480_step/
 *.yaml
 *.ipynb
@@ -8,3 +9,17 @@ rt_1_x_tf_trained_for_002272480_step/
 *.png
 *.jpg
 *.jpeg
+
+# 3D files
+*.obj
+*.fbx
+*.blend
+*.stl
+*.3ds
+*.dae
+*.ply
+*.x3d
+*.glb
+*.gltf
+*.usd
+*.xyz
